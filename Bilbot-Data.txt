@@ -1,0 +1,158 @@
+Linear search
+Sequential search
+Search algorithm
+Brute force search
+Simple search technique
+Direct lookup
+Comparison-based search
+Element-by-element search
+Unordered list search
+Ordered list search
+Small dataset search
+Unsorted array search
+Sorted array search (inefficient)
+Real-time searching
+Finding the first occurrence of an element
+Searching in linked lists
+String search in text
+Pattern matching
+Search operation in databases
+Hash table lookup (fallback method)
+Software developers
+Computer science students
+Data analysts
+AI & machine learning engineers
+Cybersecurity analysts (intrusion detection)
+Game developers (finding objects in arrays)
+Search engine developers (basic searching algorithms)
+System administrators (log searching)
+Embedded system programmers (low-memory environments)
+Data scientists (basic dataset searching)
+Computer science
+Data structures & algorithms
+Database management
+Information retrieval systems
+Cybersecurity & threat detection
+Bioinformatics (DNA sequence searching)
+Game development (finding elements in object lists)
+Search engines (basic implementations)
+Medical research (pattern searching in data)
+Retail & e-commerce (product search in inventories)
+Easy to implement
+Works on sorted & unsorted data
+No need for preprocessing (like sorting)
+Efficient for small datasets
+Best case runs in O(1) time (if the element is first)
+Slow for large datasets (O(n) complexity)
+Not efficient compared to binary search
+Consumes more time for large lists
+Requires sequential scanning
+No improvement even if the data is sorted
+Start at the first element
+Compare the target value with the current element
+If found, return the index
+If not, move to the next element
+Repeat until the end of the list
+If the element is not found, return -1
+Works for arrays, lists, and linked lists
+Can be implemented using loops or recursion
+Used in both iterative and recursive approaches
+Does not require additional space (O(1) space complexity)
+Best case: O(1) (Element found at the beginning)
+Worst case: O(n) (Element found at the end or not found)
+Average case: O(n/2) ≈ O(n)
+Space complexity: O(1) (No extra space needed)
+Comparison with binary search (O(log n))
+Performance in large datasets
+Iterative vs. recursive performance
+Memory efficiency
+Scalability concerns
+Trade-offs in different data structures
+Recursive linear search
+Iterative vs. recursive approach
+Sentinel linear search (with a dummy value)
+Self-organizing linear search
+Move-to-front heuristic
+Transposition heuristic
+Bidirectional linear search
+Parallel linear search
+Adaptive linear search
+Optimized linear search techniques
+Binary search
+Divide and conquer
+Search algorithm
+Efficient searching
+Sorted data search
+Midpoint calculation
+Comparison-based search
+Left half search
+Right half search
+Halving technique
+Searching in sorted arrays
+Efficient large dataset searching
+Database indexing
+Finding elements in ordered lists
+Optimizing dictionary lookups
+Searching in logarithmic time
+Reducing search complexity
+Finding upper and lower bounds
+Used in scheduling algorithms
+Efficient searching in machine learning
+Computer science students
+Data analysts
+AI & machine learning engineers
+Game developers (collision detection, AI pathfinding)
+System administrators (efficient data retrieval)
+Search engine developers (keyword ranking)
+Cryptographers (searching in key spaces)
+Mathematicians (solving numerical problems efficiently)
+Researchers (scientific data analysis)
+Data structures & algorithms
+Database management systems
+Information retrieval
+Cybersecurity & encryption
+Bioinformatics (gene sequence searching)
+Game development (AI decision-making)
+Search engines (index optimization)
+Medical research (efficient data lookup)
+Retail & e-commerce (product searches)
+Faster than linear search
+O(log n) time complexity
+Efficient for large datasets
+Ideal for sorted data
+Less comparisons needed
+Requires sorted data
+Overhead in sorting (if unsorted initially)
+Not efficient for small datasets
+Complex to implement recursively
+Difficult to use in dynamically changing data
+Start with a sorted array
+Find the middle element
+Compare it with the target value
+If equal, return index
+If target is smaller, search the left half
+If target is larger, search the right half
+Repeat until the target is found or the range is empty
+Can be implemented using iteration or recursion
+Requires log(n) comparisons
+Works best when searching frequently in sorted data
+Best case: O(1) (Element found at midpoint)
+Worst case: O(log n) (Repeated halving required)
+Average case: O(log n)
+Space complexity: O(1) (Iterative) / O(log n) (Recursive)
+Comparison with linear search (O(n))
+Performance in large datasets
+Iterative vs. recursive performance
+Memory efficiency
+Scalability considerations
+Trade-offs in different data structures
+Recursive binary search
+Iterative vs. recursive approach
+Ternary search (split into 3 parts instead of 2)
+Exponential search (uses binary search on a growing range)
+Fibonacci search
+Jump search (binary search alternative)
+Interpolation search (for uniformly distributed data)
+Binary search in trees (BSTs)
+Bitwise binary search optimizations
+Applications in AI and machine learning
